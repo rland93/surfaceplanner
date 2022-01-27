@@ -1,0 +1,54 @@
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}
+\usepackage{graphics} 
+\usepackage{amsmath} 
+\usepackage{amssymb}
+\usepackage{optidef}
+\usepackage{derivative}
+\usepackage{biblatex} 
+% macro for dividing sources
+\newcommand{\ct}{\vspace{.1in} \hrule \vspace{0.1in}}
+
+\addbibresource{sources.bib}
+\title{Source Notes}
+\author{mike}
+\begin{document}
+\maketitle
+
+\ct
+Pose to Pose path generation using Dubins Curves in 3-D, plus a verification in simulation.
+\cite{ambrosino_algorithms_2006}
+
+\ct
+Up to date survey on UAV path planners. Broad and includes algorithms with dynamic areas, replanning, etc. RRT, PRM, Genetic, and Neural Network. Includes specifics on communication protocols.
+\cite{ben_amarat_3d_2019}
+
+\ct
+Lots of discussion about traveling salesman type problems with dubins vehicles.
+\cite{macharet_survey_2018}
+
+\ct
+Planning approach under "threats." Threats here are like radars that the airplane wants to avoid. Path is made in 2-D first, then extrapolated into 3-D with a polynomial approximation.
+\cite{miller_3d_2011}
+
+\ct
+Set of Dubins curves, but in 3-D. Pure-math paper, no figures, no applications.
+\cite{sussmann_shortest_1995}
+
+\ct
+Shortest path to regions in 2-D with Dubins Curves.
+
+\cite{vana_optimal_2020}
+
+
+\ct
+2014 Survey paper on 3-D path planning for UAVs.
+
+\cite{yang_literature_2014}
+
+\ct
+2013 Survey paper on complete coverage algorithms.
+\cite{galceran_survey_2013}
+
+
+\printbibliography
+\end{document}
